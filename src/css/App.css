@@ -1,0 +1,203 @@
+.heading[data-v-1fbea61e] {
+  margin-bottom: 15px;
+  color: #4f4f4f;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 27px;
+}
+.note[data-v-1fbea61e] {
+  margin-bottom: 30px;
+  color: #828282;
+  font-size: 10px;
+  line-height: 15px;
+}
+.note[data-v-1fbea61e],
+.note__or[data-v-1fbea61e] {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  text-align: center;
+}
+.note__or[data-v-1fbea61e] {
+  color: #bdbdbd;
+  font-size: 12px;
+  line-height: 18px;
+}
+.upload__area[data-v-1fbea61e] {
+  position: relative;
+  box-sizing: border-box;
+  width: 85%;
+  margin: 0 auto 20px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  border: 1px dashed #97bef4;
+  border-radius: 12px;
+  background: #f6f8fb;
+}
+.upload__img[data-v-1fbea61e] {
+  width: 100%;
+  max-width: 100px;
+}
+.upload__text[data-v-1fbea61e] {
+  margin-top: 35px;
+  color: #bdbdbd;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 18px;
+}
+.upload__input--drag[data-v-1fbea61e] {
+  z-index: 2;
+}
+.upload__input--button[data-v-1fbea61e],
+.upload__input--drag[data-v-1fbea61e] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.label__button[data-v-1fbea61e] {
+  display: inline-block;
+  position: relative;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #2f80ed;
+  color: #fff;
+  font-family: Noto Sans;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+.label__button[data-v-1fbea61e],
+.text[data-v-7f42fbe2] {
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.035em;
+}
+.text[data-v-7f42fbe2] {
+  margin: 0 0 30px;
+  font-family: Poppins;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: left;
+  color: #4f4f4f;
+}
+.progress[data-v-7f42fbe2] {
+  display: block;
+  border-radius: 8px;
+  background: #f2f2f2;
+  height: 6px;
+  position: relative;
+  overflow: hidden;
+}
+.progress__indicator[data-v-7f42fbe2] {
+  width: 30%;
+  position: absolute;
+  background: #2f80ed;
+  height: 100%;
+  top: 0;
+  -webkit-animation: progress-data-v-7f42fbe2 1.5s infinite;
+  animation: progress-data-v-7f42fbe2 1.5s infinite;
+}
+@-webkit-keyframes progress-data-v-7f42fbe2 {
+  0% {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
+}
+@keyframes progress-data-v-7f42fbe2 {
+  0% {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
+}
+.check-circle[data-v-7a04baea] {
+  margin-bottom: 10px;
+  fill: #219653;
+}
+.text[data-v-7a04baea] {
+  margin: 0 0 30px;
+  color: #4f4f4f;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 27px;
+  text-align: center;
+}
+.image[data-v-7a04baea] {
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 12px;
+}
+.filepath[data-v-7a04baea] {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1px 1px 1px 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: #f6f8fb;
+}
+.filepath__text[data-v-7a04baea] {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #4f4f4f;
+  line-height: 1;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.filepath__button[data-v-7a04baea],
+.filepath__text[data-v-7a04baea] {
+  font-family: Poppins;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.035em;
+}
+.filepath__button[data-v-7a04baea] {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background: #2f80ed;
+  color: #fff;
+  line-height: 12px;
+  text-align: center;
+}
+
+.container[data-v-0e4de200] {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 60px;
+}
+.wrap[data-v-0e4de200] {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  background: #fafafb;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 100px auto;
+}
+.inner[data-v-0e4de200] {
+  padding: 36px 32px;
+  text-align: center;
+}
